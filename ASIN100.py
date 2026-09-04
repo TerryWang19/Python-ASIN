@@ -1,6 +1,3 @@
-import sys
-print("当前 Python 路径:", sys.executable)
-
 import re
 import time
 import random
@@ -14,8 +11,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 # ========== 配置区 ==========
-INPUT_EXCEL_PATH = "/Users/terry1984/Desktop/Pathon-ASIN/M-AdhesiveHooks.xlsx"
-OUTPUT_EXCEL_PATH = "/Users/terry1984/Desktop/Pathon-ASIN/amazon_results.xlsx"
+INPUT_EXCEL_PATH = "/Users/terry1984/Desktop/01_亚马逊/Python-ASIN/M-AdhesiveHooks.xlsx"
+OUTPUT_EXCEL_PATH = "/Users/terry1984/Desktop/01_亚马逊/Python-ASIN/amazon_results.xlsx"
 
 DEBUG = False                 # 价格调试
 DEBUG_SALES = False           # 销量调试

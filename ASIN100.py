@@ -1,3 +1,6 @@
+import sys
+print("当前 Python 路径:", sys.executable)
+
 import re
 import time
 import random
